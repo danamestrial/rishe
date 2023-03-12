@@ -99,7 +99,7 @@ class ListScreenState extends State<ListScreen> {
                 children: [
                   Align(
                     alignment: Alignment.bottomLeft,
-                    child: Text(isBuying?"$sellRate THB => 1 $currency":"1 $currency => $buyRate THB", style: const TextStyle(fontWeight: FontWeight.bold),),
+                    child: Text(isBuying?"$sellRate THB => 1 $currency":"1 $currency => $buyRate THB", style: const TextStyle(fontWeight: FontWeight.w500),),
                   ),
                   const Spacer(),
                   const Align(

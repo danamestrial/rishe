@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:rishe/settingscreen.dart';
 
-import "homescreen.dart";
+import 'homescreen.dart';
+import "exchangescreen.dart";
 
 void main() => runApp(const MyApp());
 
@@ -13,8 +15,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/', // we can omit this (as it is by default anyway)
       routes: {
         '/': (context) => const HomeScreen(),
-        // '/add': (context) => const AddScreen(),
-        // '/list': (context) => const TransactionScreen(),
+        '/exchange': (context) => const ExchangeScreen(),
+        '/setting': (context) => const SettingScreen(),
       },
     );
   }
